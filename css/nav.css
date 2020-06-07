@@ -1,0 +1,41 @@
+nav {
+    background: var(--maincolor);
+    position: sticky;
+    bottom: 0;
+    order: 99;
+}
+
+.nav-items {
+    display: flex;
+}
+
+nav a {
+    min-height: var(--navheight);
+    color: #fff;
+    text-decoration: none;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a:hover {
+    background: var(--maincolor-dark);
+}
+
+@media only screen and (min-width: 700px) {
+    nav {
+        bottom: auto;
+        top: 0;
+        order: 0;
+    }
+
+    .nav-items {
+        justify-content: flex-end;
+    }
+
+    nav a {
+        padding: 0 8px;
+        flex: 0;
+    }
+}

@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+main {
+    padding: 30px 5px 30px;
+}

@@ -1,0 +1,21 @@
+.brand {
+    background: var(--maincolor);
+    color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.brand div {
+    height: var(--navheight);
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 700px) {
+    .brand {
+        position: fixed;
+        top: 0;
+    }
+}
