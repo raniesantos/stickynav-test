@@ -7,15 +7,16 @@
     justify-content: center;
 }
 
-.brand div {
+.brand img {
     height: var(--navheight);
     display: flex;
     align-items: center;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 680px) {
     .brand {
         position: fixed;
         top: 0;
+        padding-left: var(--hpad);
     }
 }

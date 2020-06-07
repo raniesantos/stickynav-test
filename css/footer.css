@@ -2,4 +2,5 @@ footer {
     background: #ccc;
     text-align: center;
     margin-top: auto;
+    padding: 0 var(--hpad) 0;
 }
