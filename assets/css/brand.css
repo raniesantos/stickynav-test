@@ -1,5 +1,5 @@
 .brand {
-    background: var(--maincolor);
+    background: var(--primary);
     color: #fff;
     position: sticky;
     top: 0;

@@ -1,5 +1,5 @@
 nav {
-    background: var(--maincolor);
+    background: var(--primary);
     position: sticky;
     bottom: 0;
     order: 99;
@@ -21,7 +21,7 @@ nav a {
 }
 
 nav a:hover {
-    background: var(--maincolor-dark);
+    background: var(--primary-dark);
 }
 
 @media only screen and (min-width: 680px) {
