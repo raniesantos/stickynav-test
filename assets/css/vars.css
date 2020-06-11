@@ -1,6 +1,7 @@
 :root {
-    --primary: #555;
-    --primary-dark: #444;
+    --primary: #639;
+    --primary-light: #74a;
+    --primary-dark: #528;
     --navheight: 52px;
     --hpad: 15px;
     --light: #eee;

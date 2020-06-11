@@ -4,6 +4,7 @@ nav {
     bottom: 0;
     order: 99;
     font-size: 0.8em;
+    z-index: 10;
 }
 
 .nav-items {

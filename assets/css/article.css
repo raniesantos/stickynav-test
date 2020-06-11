@@ -1,3 +1,14 @@
 article {
-    margin-bottom: 24px;
+    border-top: 2px solid var(--primary);
+    box-shadow: var(--grey-light) 0 2px 4px 0;
+    padding: 30px 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+article:hover {
+    box-shadow: var(--grey-light) 0 6px 12px 0;
+    transform: translateY(-3px);
 }
